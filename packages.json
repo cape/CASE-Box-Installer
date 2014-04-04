@@ -1,31 +1,32 @@
 {
     "packages": {
-        "av4tar/casezfskeletonapplication": {
+        "av4tar/zend-skeleton-application": {
             "dev": {
-                "name": "av4tar/casezfskeletonapplication",
-                "version": "dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/AV4TAr/CASEZfSkeletonApplication.git",
-                    "reference": " 731823adcd4f9fd63a85efdb6fc5e4094e1a8f2c"
-                },
-                "require": {
-                    "php": ">=5.3.3",
-                    "zendframework/zendframework": "2.3.*"
-                },
-                "time": "2014-03-18 16:55:42",
-                "type": "library",
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "description": "CASE Skeleton Application for ZF2",
-                "homepage": "http://case-inc.com",
-                "keywords": [
-                    "framework",
-                    "zf2",
-                    "CASE inc"
-                ]
+              "name" : "av4tar/zend-skeleton-application",
+              "description" : "Skeleton Application for ZF2 by AV4TAr",
+              "require" : {
+                "php" : ">=5.3.3",
+                "zendframework/zendframework" : "2.2.*",
+                "doctrine/doctrine-orm-module" : "0.*",
+                "zf-commons/zfc-user" : "dev-master",
+                "zf-commons/zfc-user-doctrine-orm" : "dev-master",
+                "zf-commons/zfc-admin" : "=v0.1.1",
+                "bjyoungblood/bjy-authorize" : "1.4.*",
+                "doctrine/migrations" : "dev-master",
+                "zendframework/zenddiagnostics": "dev-master"
+              },
+              "require-dev" : {
+                "zendframework/zftool" : "dev-master",
+                "zendframework/zend-developer-tools" : "dev-master",
+                "phpunit/phpunit" : "3.7.*",
+                "firephp/firephp-core" : "0.4.0",
+                "ghislainf/zf2-whoops" : "dev-master"
+              },
+              "keywords" : [ "framework", "zf2" ],
+              "license" : "BSD-3-Clause"
             }
         }
     }
 }
+
+
