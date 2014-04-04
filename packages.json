@@ -1,8 +1,8 @@
 {
     "packages": {
-        "av4tar/CASEZfSkeletonApplication": {
+        "av4tar/casezfskeletonapplication": {
             "dev-master": {
-                "name": "zendframework/skeleton-application",
+                "name": "av4tar/casezfskeletonapplication",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
