@@ -1,9 +1,10 @@
 {
     "packages": {
         "av4tar/zend-skeleton-application": {
-            "dev": {
+            "dev-master": {
                 "name" : "av4tar/zend-skeleton-application",
                 "description" : "Skeleton Application for ZF2 by AV4TAr",
+                "version": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AV4TAr/CASEZfSkeletonApplication.git"
