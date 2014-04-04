@@ -4,7 +4,6 @@
             "dev": {
                 "name": "av4tar/casezfskeletonapplication",
                 "version": "dev",
-                "version_normalized": "dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AV4TAr/CASEZfSkeletonApplication.git",
@@ -25,7 +24,7 @@
                     "framework",
                     "zf2",
                     "CASE inc"
-                ],
+                ]
             }
         }
     }
