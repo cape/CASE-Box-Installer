@@ -1,7 +1,7 @@
 {
     "packages": {
         "av4tar/casezfskeletonapplication": {
-            "dev-master": {
+            "dev": {
                 "name": "av4tar/casezfskeletonapplication",
                 "version": "dev",
                 "version_normalized": "dev",
