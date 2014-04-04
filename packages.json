@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "av4tar/CASEZfSkeletonApplication": {
+            "dev-master": {
+                "name": "zendframework/skeleton-application",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AV4TAr/CASEZfSkeletonApplication.git",
+                    "reference": " 731823adcd4f9fd63a85efdb6fc5e4094e1a8f2c"
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zendframework": "2.3.*"
+                },
+                "time": "2014-03-18 16:55:42",
+                "type": "library",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "CASE Skeleton Application for ZF2",
+                "homepage": "http://case-inc.com",
+                "keywords": [
+                    "framework",
+                    "zf2",
+                    "CASE inc"
+                ],
+            }
+        }
+    }
+}
