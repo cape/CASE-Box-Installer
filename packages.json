@@ -2,28 +2,32 @@
     "packages": {
         "av4tar/zend-skeleton-application": {
             "dev": {
-              "name" : "av4tar/zend-skeleton-application",
-              "description" : "Skeleton Application for ZF2 by AV4TAr",
-              "require" : {
-                "php" : ">=5.3.3",
-                "zendframework/zendframework" : "2.2.*",
-                "doctrine/doctrine-orm-module" : "0.*",
-                "zf-commons/zfc-user" : "dev-master",
-                "zf-commons/zfc-user-doctrine-orm" : "dev-master",
-                "zf-commons/zfc-admin" : "=v0.1.1",
-                "bjyoungblood/bjy-authorize" : "1.4.*",
-                "doctrine/migrations" : "dev-master",
-                "zendframework/zenddiagnostics": "dev-master"
-              },
-              "require-dev" : {
-                "zendframework/zftool" : "dev-master",
-                "zendframework/zend-developer-tools" : "dev-master",
-                "phpunit/phpunit" : "3.7.*",
-                "firephp/firephp-core" : "0.4.0",
-                "ghislainf/zf2-whoops" : "dev-master"
-              },
-              "keywords" : [ "framework", "zf2" ],
-              "license" : "BSD-3-Clause"
+                "name" : "av4tar/zend-skeleton-application",
+                "description" : "Skeleton Application for ZF2 by AV4TAr",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AV4TAr/CASEZfSkeletonApplication.git"
+                },
+                "require" : {
+                    "php" : ">=5.3.3",
+                    "zendframework/zendframework" : "2.2.*",
+                    "doctrine/doctrine-orm-module" : "0.*",
+                    "zf-commons/zfc-user" : "dev-master",
+                    "zf-commons/zfc-user-doctrine-orm" : "dev-master",
+                    "zf-commons/zfc-admin" : "=v0.1.1",
+                    "bjyoungblood/bjy-authorize" : "1.4.*",
+                    "doctrine/migrations" : "dev-master",
+                    "zendframework/zenddiagnostics": "dev-master"
+                },
+                "require-dev" : {
+                    "zendframework/zftool" : "dev-master",
+                    "zendframework/zend-developer-tools" : "dev-master",
+                    "phpunit/phpunit" : "3.7.*",
+                    "firephp/firephp-core" : "0.4.0",
+                    "ghislainf/zf2-whoops" : "dev-master"
+                },
+                "keywords" : [ "framework", "zf2" ],
+                "license" : "BSD-3-Clause"
             }
         }
     }
