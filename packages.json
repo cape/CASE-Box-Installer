@@ -3,8 +3,8 @@
         "av4tar/casezfskeletonapplication": {
             "dev-master": {
                 "name": "av4tar/casezfskeletonapplication",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "dev",
+                "version_normalized": "dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AV4TAr/CASEZfSkeletonApplication.git",
